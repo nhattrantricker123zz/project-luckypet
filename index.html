@@ -16,11 +16,88 @@
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Sora:wght@300;500;700&display=swap"
             rel="stylesheet"
         />
+        <!--  -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
     </head>
     <body>
         <header class="header">
             <div class="main-container">
-                <div class="header-top">
+                <div class="header__inner">
                     <img
                         src="assets/img/img-header/logo-header.svg"
                         alt=""
@@ -29,26 +106,107 @@
                     <nav class="navbar">
                         <ul class="navbar-list">
                             <li class="navbar-list__item">
-                                <a href="#!" class="navbar-list__item-link">Home</a>
+                                <a href="#!" class="navbar-list__item-link"
+                                    >Home</a
+                                >
                             </li>
                             <li class="navbar-list__item">
-                                <a href="#!" class="navbar-list__item-link">About</a>
+                                <a href="#!" class="navbar-list__item-link"
+                                    >About</a
+                                >
                             </li>
                             <li class="navbar-list__item">
-                                <a href="#!" class="navbar-list__item-link">Services & Rates</a>
+                                <a href="#!" class="navbar-list__item-link"
+                                    >Services & Rates</a
+                                >
                             </li>
                             <li class="navbar-list__item">
-                                <a href="#!" class="navbar-list__item-link">Reviewa</a>
+                                <a href="#!" class  ="navbar-list__item-link"
+                                    >Reviewa</a
+                                >
                             </li>
                             <li class="navbar-list__item">
-                                <a href="#!" class="navbar-list__item-link">Contacts us</a>
+                                <a href="#!" class="navbar-list__item-link"
+                                    >Contacts us</a
+                                >
                             </li>
                         </ul>
                     </nav>
-                    
-                    <a href="#!" class="btn ">Sign up</a>
+
+                    <div class="header-action">
+                        <a href="#!" class="header-action__sign-in">Sign in</a>
+                        <a href="#!" class="btn header-action__btn">Sign up</a>
+                    </div>
                 </div>
             </div>
         </header>
+
+        <section class="hero">
+            <div class="main-container">
+                <div class="hero__inner">
+                    <div class="hero__media">
+                        <div class="hero__img-wrap">
+                            <img
+                                src="assets/img/cat-01.png"
+                                alt=""
+                                class="hero__img"
+                            />
+
+                            <!-- Decorators -->
+                            <img
+                                src="assets/img/decor-01.png"
+                                alt=""
+                                class="hero__img-decor hero__img-decor__right"
+                            />
+                            <img
+                                src="assets/img/decor-02.png"
+                                alt=""
+                                class="hero__img-decor hero__img-decor__left"
+                            />
+                        </div>
+
+                        <div class="hero__img-wrap hero__img-wrap--small ">
+                            <img
+                                src="assets/img/dog-01.png"
+                                alt=""
+                                class="hero__img hero__img-small"
+                            />
+                        </div>
+
+                        <div class="hero-list">
+
+                            <!-- Item 1 -->
+                            <section class="hero-list-item">
+                                <img src="assets/img/pet-health__01.png" alt="" class="hero-list-item__thumb">
+                                <div class="hero-list-item__info">
+                                    <p class="hero-list-item__title">Pet Health</p>
+
+                                    <div class="hero-list-item__skeleton"></div>
+                                    <div class="hero-list-item__skeleton"  style="--width: 39px;"></div>
+                                </div>
+                            </section>
+
+                            <span class="hero-list-item__separate"></span>
+                             <!-- Item 2 -->
+                             <section class="hero-list-item">
+                                <img src="assets/img/pet-health__012.png" alt="" class="hero-list-item__thumb">
+
+                                <div class="hero-list-item__info">
+                                    <p class="hero-list-item__title">Pet Health</p>
+
+                                    <div class="hero-list-item__skeleton"></div>
+                                    <div class="hero-list-item__skeleton"  style="--width: 39px;"></div>
+                                </div>
+                            </section>
+
+                            
+
+                        </div>
+                    </div>
+
+                    <div class="hero__content"></div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
