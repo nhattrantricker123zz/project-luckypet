@@ -255,3 +255,138 @@ body {
 .hero-action__link:hover {
     opacity: 0.8;
 }
+
+/* About */
+
+.about {
+    margin-top: 103px;
+}
+.about__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.about__media {
+    position: relative;
+    width: 636px;
+}
+.about__label {
+    color: #5e6085;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+}
+
+.about__content-heading {
+    width: 446px;
+    margin-top: 10px;
+    color: #000958;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 62px; /* 119.231% */
+}
+.about__content-desc {
+    color: #656689;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    width: 431px;
+}
+
+.about__checklist {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 54px;
+    gap: 34px 36px;
+}
+
+.about__checklist-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about__checklist-item::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #ff5d31;
+    border-radius: 4px;
+}
+
+.about__checklist-item::after {
+    position: absolute;
+    left: 5px;
+    top: 4px;
+    content: url(../icons/check.svg);
+}
+
+.about__card {
+    position: absolute;
+    width: 136px;
+    top: 147px;
+    left: 55px;
+    padding: 30px 26px;
+    border-radius: 10px;
+    background: #5bd6e2;
+    box-shadow: -15px 26px 48px 0px rgba(85, 240, 255, 0.17);
+}
+
+.about__card-label {
+    color: #fff;
+    text-align: center;
+    font-family: Sora, sans-serif;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 42px; /* 100% */
+}
+
+.about__card-desc {
+    color: #c6f4f9;
+    text-align: center;
+    margin-top: 14px;
+    font-family: Poppins, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.about__card-img {
+    position: absolute;
+    top: -37px;
+    right: -32px;
+}
+
+.about__img-wrap {
+    margin-left: auto;
+    position: relative;
+    width: 494px;
+}
+
+.about__img-wrap::after {
+    content: "";
+    z-index: -1;
+    inset: auto 0 0 0;
+    width: 494px;
+    height: 336px;
+    position: absolute;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #fce0ef 0%, #fac3d1 100%);
+    box-shadow: 11px 18px 65px 0px rgba(255, 155, 121, 0.12);
+}
+.about__img {
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+}
+
+.about__card-decor{
+    position: absolute;
+    top: 157px;
+    right: -50px;
+    z-index: -2;
+}
